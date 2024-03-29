@@ -5,12 +5,12 @@ import java.util.Scanner;
 public class Udemy_Exercicio_01 {
 
 	public static void main(String[] args) {
-		wilhi(validador ==1){
-		int idade, mesNascimento,validador, anoNacimento = 0;
 		
+		int idade, mesNascimento,validador, anoNacimento = 0;
 		String nome, sobrenome;
 		Scanner ler = new Scanner(System.in);
 		
+		while(validador ==1){
 		System.out.print("A seguir escreva sua idade atual: ");
 		idade = ler.nextInt();
 		System.out.print("A seguir escreva seu mês de nascimento: ");
