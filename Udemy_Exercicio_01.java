@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class Udemy_Exercicio_01 {
 
 	public static void main(String[] args) {
-		
-		int idade, mesNascimento, anoNacimento = 0;
+		wilhi(validador ==1){
+		int idade, mesNascimento,validador, anoNacimento = 0;
 		
 		String nome, sobrenome;
 		Scanner ler = new Scanner(System.in);
@@ -28,6 +28,10 @@ public class Udemy_Exercicio_01 {
 		System.out.println("Confira seus dados!" );
 		System.out.println("Nome: " + nome +" "+ sobrenome );
 		System.out.println("Idade: " + idade +"/" + mesNascimento + "/" + anoNacimento);
+
+		System.out.println("Quer refazer digite 1.");
+		validador = ler.nextInt();
+		}
 		
 	}
 
